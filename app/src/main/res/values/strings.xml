@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HealthTrack</string>
+    <string name="copyright">Copyright &#169; HealthTrack Ltd 2022</string>
+    <string name="about_text">Track the nearest Health Facility near your location for medical assistance.</string>
+    <string name="developer">Developer Details:</string>
+    <string name="mainDeveloper">Ahmad Syakir Bin Mohd Sakeri(2020700355)</string>
+    <string name="assistanceDeveloper">Mohamad Azimi Bin Zakariah(2020995143)</string>
+    <string name="editor1">Haziq Asyraf Bin Abu Hanifah(2020982145)</string>
+    <string name="editor2"></string>
+    <string name="editor3"></string>
+    <string name="title_activity_maps">Maps Activity</string>
+    <string name="myText"> <a href= "https://github.com/haziqasyraf08/HealthTrack"> Link to Github </a> </string>
+</resources>

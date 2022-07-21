@@ -1,0 +1,22 @@
+com/example/project/databinding/ActivityMainBinding.java
+ com.example.project.databinding.ActivityMainBinding
+com/example/project/databinding/ActivityAboutBinding.java
+ com.example.project.databinding.ActivityAboutBinding
+com/example/HealthTrack/MapsActivity.java
+ com.example.HealthTrack.MapsActivity
+com/example/project/BuildConfig.java
+ com.example.project.BuildConfig
+com/example/project/databinding/ActivitySecondBinding.java
+ com.example.project.databinding.ActivitySecondBinding
+com/example/HealthTrack/SecondActivity.java
+ com.example.HealthTrack.SecondActivity
+ com.example.HealthTrack.SecondActivity$1
+ com.example.HealthTrack.SecondActivity$2
+ com.example.HealthTrack.SecondActivity$3
+ com.example.HealthTrack.SecondActivity$4
+com/example/HealthTrack/AboutActivity.java
+ com.example.HealthTrack.AboutActivity
+com/example/HealthTrack/MainActivity.java
+ com.example.HealthTrack.MainActivity
+com/example/project/databinding/ActivityMapsBinding.java
+ com.example.project.databinding.ActivityMapsBinding

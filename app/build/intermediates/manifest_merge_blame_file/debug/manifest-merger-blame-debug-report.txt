@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.healthtrackexample.project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:8:22-76
+15    <!--
+16         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+17         Google Maps Android API v2, but you must specify either coarse or fine
+18         location permissions for the "MyLocation" functionality.
+19    -->
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:6:5-79
+20-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:6:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+32-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:16:5-53:19
+33        android:allowBackup="true"
+33-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:17:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.7.0] C:\Users\asus\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:19:9-43
+38        android:label="HealthTrack"
+38-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:18:9-36
+39        android:supportsRtl="true"
+39-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:20:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.Project" >
+41-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:21:9-45
+42        <activity
+42-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:22:9-24:40
+43            android:name="com.example.HealthTrack.AboutActivity"
+43-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:23:13-65
+44            android:exported="false" />
+44-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:24:13-37
+45        <!--
+46             The API key for Google Maps-based APIs is defined as a string resource.
+47             (See the file "res/values/google_maps_api.xml").
+48             Note that the API key is linked to the encryption key used to sign the APK.
+49             You need a different API key for each encryption key, including the release key that is used to
+50             sign the APK for publishing.
+51             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+52        -->
+53        <meta-data
+53-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:33:9-35:55
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:34:13-58
+55            android:value="@string/google_maps_key" />
+55-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:35:13-52
+56
+57        <activity
+57-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:37:9-40:59
+58            android:name="com.example.HealthTrack.MapsActivity"
+58-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:38:13-64
+59            android:exported="false"
+59-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:39:13-37
+60            android:label="@string/title_activity_maps" />
+60-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:40:13-56
+61        <activity
+61-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:41:9-43:40
+62            android:name="com.example.HealthTrack.SecondActivity"
+62-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:42:13-66
+63            android:exported="false" />
+63-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:43:13-37
+64        <activity
+64-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:44:9-52:20
+65            android:name="com.example.HealthTrack.MainActivity"
+65-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:45:13-64
+66            android:exported="true" >
+66-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:46:13-36
+67            <intent-filter>
+67-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:47:13-51:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:48:17-69
+68-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:48:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:50:17-77
+70-->C:\Users\asus\AndroidStudioProjects\HealthTrackSystem\HealthTrack\app\src\main\AndroidManifest.xml:50:27-74
+71            </intent-filter>
+72        </activity>
+73        <!-- Needs to be explicitly declared on P+ -->
+74        <uses-library
+74-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+75            android:name="org.apache.http.legacy"
+75-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+76            android:required="false" />
+76-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\asus\.gradle\caches\transforms-3\90013a2d70c7cdac5ee28478607b5678\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+77
+78        <activity
+78-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+79            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+79-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+80            android:excludeFromRecents="true"
+80-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+83        <!--
+84            Service handling Google Sign-In user revocation. For apps that do not integrate with
+85            Google Sign-In, this service will never be started.
+86        -->
+87        <service
+87-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+88            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+88-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+89            android:exported="true"
+89-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+90            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+90-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+91            android:visibleToInstantApps="true" />
+91-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\asus\.gradle\caches\transforms-3\24963d7450ea87332bc6adbc7c2efd13\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\7d19f89ad245d9f627f67ffc17dd7e15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\7d19f89ad245d9f627f67ffc17dd7e15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\7d19f89ad245d9f627f67ffc17dd7e15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\asus\.gradle\caches\transforms-3\7d19f89ad245d9f627f67ffc17dd7e15\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+97
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asus\.gradle\caches\transforms-3\4065ffa9f933b654ef0b655a200e3015\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asus\.gradle\caches\transforms-3\4065ffa9f933b654ef0b655a200e3015\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asus\.gradle\caches\transforms-3\4065ffa9f933b654ef0b655a200e3015\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+101
+102        <provider
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+103            android:name="androidx.startup.InitializationProvider"
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+104            android:authorities="com.healthtrackexample.project.androidx-startup"
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+105            android:exported="false" >
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+106            <meta-data
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+108                android:value="androidx.startup" />
+108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asus\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+109            <meta-data
+109-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asus\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+110-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asus\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+111                android:value="androidx.startup" />
+111-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asus\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+112        </provider>
+113    </application>
+114
+115</manifest>

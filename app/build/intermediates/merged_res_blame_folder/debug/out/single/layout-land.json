@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\HealthTrackSystem\\HealthTrack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_about.xml",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\HealthTrackSystem\\HealthTrack\\app\\src\\main\\res\\layout-land\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\HealthTrackSystem\\HealthTrack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_second.xml",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\HealthTrackSystem\\HealthTrack\\app\\src\\main\\res\\layout-land\\activity_second.xml"
+    }
+]
